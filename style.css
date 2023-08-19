@@ -36,7 +36,18 @@ body {
 }
 
 .profile img {
-	width: 112px;
+	width: 150px;
+}
+
+/* ----- MUSIC ----- */
+.music {
+  display: flex;
+  justify-content: center;
+}
+
+.music audio {
+  height: 30px;
+  width: 250px;
 }
 
 /* ----- LINKS ----- */
@@ -46,6 +57,10 @@ body {
 	gap: 8px;
 	list-style: none;
 	padding: 24px 0;
+}
+
+.links li {
+  margin-bottom: 10px;
 }
 
 .links li a {
@@ -95,6 +110,7 @@ footer {
 	font-size: 14px;
 	padding: 24px;
 	text-align: center;
+  margin-top: 25vh;
 }
 
 footer span {
