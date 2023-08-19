@@ -1,6 +1,9 @@
 * {
 	color: white;
 	font-family: 'Inter', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
@@ -8,25 +11,15 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	box-sizing: border-box;
-
 	height: 100vh;
-	margin: 0;
-	padding: 0;
 	position: relative;
-}
-
-.content {
-	background-color: rgba(8, 3, 82, 0.241);
-	z-index: 1;
-	height: 100vh;
 }
 
 .container {
 	margin: 0 auto;
 	max-width: 588px;
 	padding: 0 24px;
-	width: 100%px;
+	width: 100%;
 }
 
 /* ----- PROFILE ----- */
@@ -48,6 +41,7 @@ body {
 .music audio {
   height: 30px;
   width: 250px;
+	margin-bottom: 20px;
 }
 
 /* ----- LINKS ----- */
@@ -56,7 +50,7 @@ body {
 	flex-direction: column;
 	gap: 8px;
 	list-style: none;
-	padding: 24px 0;
+	padding: 0 24px;
 }
 
 .links li {
@@ -110,7 +104,7 @@ footer {
 	font-size: 14px;
 	padding: 24px;
 	text-align: center;
-  margin-top: 25vh;
+	margin-top: 20px;
 }
 
 footer span {
