@@ -1,0 +1,22 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 56px auto 0;
+  max-width: 588px;
+  padding: 0 24px;
+  width: 100%px;
+}
+
+/* ----- PROFILE ----- */
+.profile {
+  padding: 24px;
+  text-align: center;
+}
+
+.profile img {
+  width: 112px;
+}
