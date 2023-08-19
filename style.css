@@ -1,0 +1,119 @@
+* {
+	color: white;
+	font-family: 'Inter', sans-serif;
+}
+
+body {
+	background-image: url('./img/background.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	box-sizing: border-box;
+
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+.content {
+	background-color: rgba(8, 3, 82, 0.241);
+	z-index: 1;
+	height: 100vh;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 588px;
+	padding: 0 24px;
+	width: 100%px;
+}
+
+/* ----- PROFILE ----- */
+.profile {
+	padding: 24px;
+	text-align: center;
+}
+
+.profile img {
+	width: 150px;
+}
+
+/* ----- MUSIC ----- */
+.music {
+  display: flex;
+  justify-content: center;
+}
+
+.music audio {
+  height: 30px;
+  width: 250px;
+}
+
+/* ----- LINKS ----- */
+.links {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	list-style: none;
+	padding: 24px 0;
+}
+
+.links li {
+  margin-bottom: 10px;
+}
+
+.links li a {
+	align-items: center;
+	backdrop-filter: blur(4px);
+	border: 1px solid #bec6d2;
+	border-radius: 8px;
+	display: flex;
+	font-weight: 500;
+	justify-content: center;
+	padding: 16px 24px;
+	text-decoration: none;
+	transition: background 0.4s;
+	-webkit-backdrop-filter: blur(4px);
+}
+
+.links li a:hover {
+	background: #b4bbc48f;
+	border: 1.5px solid #3a414a;
+	color: #3a414a;
+}
+
+/* ----- LINKS ----- */
+.social-links {
+	display: flex;
+	font-size: 24px;
+	justify-content: center;
+	padding: 24px 0;
+}
+
+.social-links a {
+	align-items: center;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	padding: 16px;
+	text-decoration: none;
+	transition: background 0.6s;
+}
+
+.social-links a:hover {
+	background: #b4bbc48f;
+}
+
+/* ----- LINKS ----- */
+footer {
+	font-size: 14px;
+	padding: 24px;
+	text-align: center;
+  margin-top: 25vh;
+}
+
+footer span {
+	font-style: italic;
+	font-weight: 600;
+}
